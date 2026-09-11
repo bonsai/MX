@@ -1,0 +1,27 @@
+name: MX
+meaning: Marketing Transformation
+subject: market
+actor: marketer
+
+cycle:
+  - observe
+  - segment
+  - hypothesize
+  - position
+  - communicate
+  - measure
+  - learn
+  - update
+
+outputs:
+  - market_model
+  - customer_model
+  - hypothesis
+  - campaign
+  - measurement
+  - learning
+
+relations:
+  dx: field_business_customer_data
+  ax: accurate_execution_of_change
+  mx: market_customer_demand_touchpoints
