@@ -1,0 +1,34 @@
+name: Marketer
+role: market_relationship_designer
+
+principle: >-
+  Marketer is not merely a seller; the Marketer designs, observes,
+  and updates the relationship between an organization and its market.
+
+inputs:
+  - market_data
+  - customer_signals
+  - cultural_signals
+  - business_constraints
+
+activities:
+  - research
+  - segmentation
+  - hypothesis
+  - positioning
+  - communication
+  - measurement
+  - learning
+  - iteration
+
+outputs:
+  - market_model
+  - customer_model
+  - hypothesis
+  - campaign
+  - measurement
+  - learning
+
+feedback:
+  source: market
+  target: hypothesis
