@@ -9,7 +9,7 @@ eval_loop.py — 制作物の評価ループ（汎用）。音楽 / 小説 / 画
     <root>/CURATION.json             { items: { "<id>": {status, reason, ...} } }
 
 使い方:
-    python3 eval_loop.py --root ~/repo/suno-gen/albums
+    python3 eval_loop.py --root ~/.skills/suno-gen/albums
     python3 eval_loop.py --root ./content --engine logistic_regression
     python3 eval_loop.py --root ./content --report-only     # ML 抜きで理由だけ
 
@@ -87,7 +87,7 @@ def featurize(row: dict) -> dict:
 
 
 def find_bqmlite() -> Path | None:
-    for c in (os.environ.get("BQMLITE"), str(Path.home() / "repo/bqmlite-go"),
+    for c in (os.environ.get("BQMLITE"), str(Path.home() / ".skills/bqmlite-go"),
               str(Path.home() / "bqmlite-go")):
         if c and (Path(c) / "cmd" / "bqmlite").exists():
             return Path(c)

@@ -31,16 +31,16 @@ interpret 捨てた理由を読み、次に捨てられそうな上位を出す
 ## 使い方
 
 ```bash
-S=~/repo/MX/eval-loop/scripts/eval_loop.py
+S=~/.skills/MX/eval-loop/scripts/eval_loop.py
 
-python3 "$S" --root ~/repo/suno-gen/albums          # 音楽
+python3 "$S" --root ~/.skills/suno-gen/albums          # 音楽
 python3 "$S" --root ~/novels --engine logistic_regression   # 小説
 python3 "$S" --root ~/images                        # 画像
 python3 "$S" --root ./content --report-only         # ML 抜きで理由だけ
 ```
 
 - 出力: `<root>/../eval/eval-dataset.json`・`eval-items.json`・`eval-model-result.json`
-- bqmlite-go（`~/repo/bqmlite-go` か `$BQMLITE`）が必要。無ければ理由レポートだけ。
+- bqmlite-go（`~/.skills/bqmlite-go` か `$BQMLITE`）が必要。無ければ理由レポートだけ。
 
 ## MX サイクルとの関係
 

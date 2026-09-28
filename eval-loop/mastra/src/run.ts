@@ -2,7 +2,7 @@
  * run.ts — eval→prompt改訂ワークフローを 1 回まわす。
  *
  *   bun run src/run.ts <content-root> [facet]
- *   例: bun run src/run.ts ~/repo/suno-gen/albums parts
+ *   例: bun run src/run.ts ~/.skills/suno-gen/albums parts
  *
  * 出力: <root>/../eval/prompt-revision-proposal.json（**自動適用しない**）
  */

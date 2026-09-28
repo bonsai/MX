@@ -7,7 +7,7 @@ prompt_weights.py — 評価データから「生成プロンプトの重み」�
 （LLM 不要）。理由（reason）は解釈の材料として並べる。
 
 使い方:
-    python3 prompt_weights.py --root ~/repo/suno-gen/albums
+    python3 prompt_weights.py --root ~/.skills/suno-gen/albums
     python3 prompt_weights.py --root ./content --facet parts     # facets の出所
     python3 prompt_weights.py --root ./content --facet tags
 
